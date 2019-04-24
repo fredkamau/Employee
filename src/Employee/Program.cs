@@ -62,7 +62,7 @@ namespace EmployeeHeap
             }
             else
             {
-                //work with the csv string array
+                //The max heap will work with the csv string array
                 string[] csv = csvString.Split('\n', ',');
             }
            
@@ -78,7 +78,7 @@ namespace EmployeeHeap
                     Console.WriteLine("Result:");
                     break;
                 case "Employee3":
-                    Console.WriteLine("Result:");
+                    Console.WriteLine("Results:");
                     break;
                 case "Employee1":
                     Console.WriteLine("Result:");
